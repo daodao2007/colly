@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jawher/mow.cli"
+	cli "github.com/jawher/mow.cli"
 )
 
 var scraperHeadTemplate = `package main
@@ -29,7 +29,7 @@ var scraperHeadTemplate = `package main
 import (
 	"log"
 
-	"github.com/gocolly/colly/v2"
+	"github.com/daodao2007/colly/v2"
 )
 
 func main() {

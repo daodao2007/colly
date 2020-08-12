@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/gocolly/colly/v2"
+	"github.com/daodao2007/colly/v2"
 )
 
 const stop = true
